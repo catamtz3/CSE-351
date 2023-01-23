@@ -1,0 +1,18 @@
+*****************************
+* Lab 5 Synthesis Questions *
+*****************************
+Name(s): Catalina Martinez, Asher Lozano
+NetID(s): 2065453, 1841966
+
+
+-----------------------------------------------------------
+1) Alignment: 16
+   Reasoning: It is 16 because you'll find that we have a difference of 48 bytes in Malloc(16) as well as Malloc(32) by subtracting from class_grade. This means that our aligment size is of 16 bytes based on both Mallocs.
+
+-----------------------------------------------------------
+2) Boundary Tag Size:  8
+   Reasoning:It is 8 because you'll find that when we malloced a block with size 24B, the following address pointer was 32B away, so the boundary tag must be 8 since those two subtracted from each other equals 8B.
+
+
+
+-----------------------------------------------------------
